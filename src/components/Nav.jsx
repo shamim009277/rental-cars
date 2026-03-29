@@ -22,7 +22,7 @@ const Nav = () => {
 
                 <div className='hidden md:flex items-center space-x-4'>
                     <Link to={'/login'} className='py-1 px-3 flex items-center gap-2 rounded-sm text-gray-800 hover:bg-gray-200 transition duration-300'> <LogIn className='w-4 h-4' /> Login</Link>
-                    <Link to={'/signup'} className='py-1 px-3 flex items-center gap-2 rounded-sm bg-blue-500 text-white hover:bg-blue-700 transition duration-300' >Sign Up</Link>
+                    <Link to={'/register'} className='py-1 px-3 flex items-center gap-2 rounded-sm bg-blue-500 text-white hover:bg-blue-700 transition duration-300' >Sign Up</Link>
                 </div>
 
                 {/* Mobile Menu Button */}

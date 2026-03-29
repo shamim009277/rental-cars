@@ -9,7 +9,6 @@ const Hero = () => {
 
          <div className='bg-white rounded-xl shadow-lg p-4 sm:p-6 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-5 gap-4 items-end text-black'>
               {/* pickup location */}
-
               <div>
                     <label className='flex items-center gap-2 text-sm font-semibold text-gray-700 mb-2'>
                         <MapPin className='w-5 h-5' />
